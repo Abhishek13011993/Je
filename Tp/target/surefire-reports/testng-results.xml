@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-03T12:14:30 IST" name="Surefire suite" finished-at="2025-03-03T12:15:31 IST" duration-ms="60607">
+    <groups>
+    </groups>
+    <test started-at="2025-03-03T12:14:30 IST" name="Surefire test" finished-at="2025-03-03T12:15:31 IST" duration-ms="60607">
+      <class name="misc.InvoiceTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:misc.InvoiceTest@e056f20]" started-at="2025-03-03T12:14:30 IST" name="configBS" finished-at="2025-03-03T12:14:30 IST" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:misc.InvoiceTest@e056f20]" started-at="2025-03-03T12:15:05 IST" name="configBC" finished-at="2025-03-03T12:15:07 IST" duration-ms="2140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:misc.InvoiceTest@e056f20]" started-at="2025-03-03T12:15:07 IST" name="configBM" finished-at="2025-03-03T12:15:13 IST" duration-ms="5662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createInvoiceTest()[pri:0, instance:misc.InvoiceTest@e056f20]" started-at="2025-03-03T12:15:13 IST" name="createInvoiceTest" finished-at="2025-03-03T12:15:13 IST" duration-ms="168" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Login] but found [Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Login] but found [Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at misc.InvoiceTest.createInvoiceTest(InvoiceTest.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInvoiceTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:misc.InvoiceTest@e056f20]" started-at="2025-03-03T12:15:13 IST" name="configAM" finished-at="2025-03-03T12:15:20 IST" duration-ms="6729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:misc.InvoiceTest@e056f20]" started-at="2025-03-03T12:15:20 IST" name="configBM" finished-at="2025-03-03T12:15:25 IST" duration-ms="4947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createInvoicewithContactTest()[pri:0, instance:misc.InvoiceTest@e056f20]" started-at="2025-03-03T12:15:25 IST" name="createInvoicewithContactTest" finished-at="2025-03-03T12:15:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInvoicewithContactTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:misc.InvoiceTest@e056f20]" started-at="2025-03-03T12:15:25 IST" name="configAM" finished-at="2025-03-03T12:15:31 IST" duration-ms="5643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:misc.InvoiceTest@e056f20]" started-at="2025-03-03T12:15:31 IST" name="configAC" finished-at="2025-03-03T12:15:31 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:misc.InvoiceTest@e056f20]" started-at="2025-03-03T12:15:31 IST" name="configAS" finished-at="2025-03-03T12:15:31 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- misc.InvoiceTest -->
+      <class name="misc.HomeVerificationTest">
+        <test-method signature="Homepagetest(java.lang.reflect.Method)[pri:0, instance:misc.HomeVerificationTest@70e8f8e]" started-at="2025-03-03T12:14:31 IST" name="Homepagetest" finished-at="2025-03-03T12:14:56 IST" duration-ms="24995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void misc.HomeVerificationTest.Homepagetest(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepagetest -->
+        <test-method signature="verifylogo(java.lang.reflect.Method)[pri:0, instance:misc.HomeVerificationTest@70e8f8e]" started-at="2025-03-03T12:14:56 IST" name="verifylogo" finished-at="2025-03-03T12:15:05 IST" duration-ms="9309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void misc.HomeVerificationTest.verifylogo(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogo -->
+      </class> <!-- misc.HomeVerificationTest -->
+      <class name="misc.SampleReportTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:misc.SampleReportTest@4b0b0854]" started-at="2025-03-03T12:14:30 IST" name="configBS" finished-at="2025-03-03T12:14:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method signature="CreateContactTest()[pri:0, instance:misc.SampleReportTest@4b0b0854]" started-at="2025-03-03T12:15:31 IST" name="CreateContactTest" finished-at="2025-03-03T12:15:31 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactTest -->
+        <test-method signature="CreateContactWithOrg()[pri:0, instance:misc.SampleReportTest@4b0b0854]" started-at="2025-03-03T12:15:31 IST" name="CreateContactWithOrg" finished-at="2025-03-03T12:15:31 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactWithOrg -->
+        <test-method signature="CreateContactWithPhone()[pri:0, instance:misc.SampleReportTest@4b0b0854]" started-at="2025-03-03T12:15:31 IST" name="CreateContactWithPhone" finished-at="2025-03-03T12:15:31 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactWithPhone -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:misc.SampleReportTest@4b0b0854]" started-at="2025-03-03T12:15:31 IST" name="configAS" finished-at="2025-03-03T12:15:32 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- misc.SampleReportTest -->
+      <class name="com.comcast.crm.orgtest.Annotations_OrgTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.orgtest.Annotations_OrgTest@2e4b8173]" started-at="2025-03-03T12:14:30 IST" name="configBS" finished-at="2025-03-03T12:14:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.orgtest.Annotations_OrgTest@2e4b8173]" started-at="2025-03-03T12:14:31 IST" name="configBC" finished-at="2025-03-03T12:14:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.Annotations_OrgTest@2e4b8173]" started-at="2025-03-03T12:14:31 IST" name="configBM" finished-at="2025-03-03T12:14:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrg()[pri:0, instance:com.comcast.crm.orgtest.Annotations_OrgTest@2e4b8173]" started-at="2025-03-03T12:14:31 IST" name="createOrg" finished-at="2025-03-03T12:14:31 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.Annotations_OrgTest@2e4b8173]" started-at="2025-03-03T12:14:31 IST" name="configAM" finished-at="2025-03-03T12:14:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.Annotations_OrgTest@2e4b8173]" started-at="2025-03-03T12:14:31 IST" name="configBM" finished-at="2025-03-03T12:14:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrgWithIndustries()[pri:0, instance:com.comcast.crm.orgtest.Annotations_OrgTest@2e4b8173]" started-at="2025-03-03T12:14:31 IST" name="createOrgWithIndustries" finished-at="2025-03-03T12:14:31 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustries -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.Annotations_OrgTest@2e4b8173]" started-at="2025-03-03T12:14:31 IST" name="configAM" finished-at="2025-03-03T12:14:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.orgtest.Annotations_OrgTest@2e4b8173]" started-at="2025-03-03T12:14:31 IST" name="configAC" finished-at="2025-03-03T12:14:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.orgtest.Annotations_OrgTest@2e4b8173]" started-at="2025-03-03T12:15:31 IST" name="configAS" finished-at="2025-03-03T12:15:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.comcast.crm.orgtest.Annotations_OrgTest -->
+      <class name="com.comcast.crm.orgtest.Annotations_ContactTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.orgtest.Annotations_ContactTest@470f1802]" started-at="2025-03-03T12:14:30 IST" name="configBS" finished-at="2025-03-03T12:14:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.orgtest.Annotations_ContactTest@470f1802]" started-at="2025-03-03T12:14:31 IST" name="configBC" finished-at="2025-03-03T12:14:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.Annotations_ContactTest@470f1802]" started-at="2025-03-03T12:14:31 IST" name="configBM" finished-at="2025-03-03T12:14:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContact()[pri:0, instance:com.comcast.crm.orgtest.Annotations_ContactTest@470f1802]" started-at="2025-03-03T12:14:31 IST" name="createContact" finished-at="2025-03-03T12:14:31 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.Annotations_ContactTest@470f1802]" started-at="2025-03-03T12:14:31 IST" name="configAM" finished-at="2025-03-03T12:14:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.Annotations_ContactTest@470f1802]" started-at="2025-03-03T12:14:31 IST" name="configBM" finished-at="2025-03-03T12:14:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactWithDate()[pri:0, instance:com.comcast.crm.orgtest.Annotations_ContactTest@470f1802]" started-at="2025-03-03T12:14:31 IST" name="createContactWithDate" finished-at="2025-03-03T12:14:31 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithDate -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.Annotations_ContactTest@470f1802]" started-at="2025-03-03T12:14:31 IST" name="configAM" finished-at="2025-03-03T12:14:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.orgtest.Annotations_ContactTest@470f1802]" started-at="2025-03-03T12:14:31 IST" name="configAC" finished-at="2025-03-03T12:14:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.orgtest.Annotations_ContactTest@470f1802]" started-at="2025-03-03T12:15:31 IST" name="configAS" finished-at="2025-03-03T12:15:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.comcast.crm.orgtest.Annotations_ContactTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
