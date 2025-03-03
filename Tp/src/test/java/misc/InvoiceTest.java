@@ -13,7 +13,7 @@ public class InvoiceTest extends BaseClass
 	public void createInvoiceTest() {
 		System.out.println("Execute createInvoiceTest");
 		String actTitle=driver.getTitle();
-		Assert.assertEquals(actTitle, "Home");
+		Assert.assertEquals(actTitle, "Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM");
 		System.out.println("step-1");
 		System.out.println("step-2");
 		System.out.println("step-3");

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="63.614" tests="11" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="44.373" tests="11" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\lenovo\AppData\Local\Temp\surefire16667663043888618862\surefirebooter-20250303121428374_3.jar C:\Users\lenovo\AppData\Local\Temp\surefire16667663043888618862 2025-03-03T12-14-28_102-jvmRun1 surefire-20250303121428374_1tmp surefire_0-20250303121428374_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\lenovo\AppData\Local\Temp\surefire1914108647847406347\surefirebooter-20250303121849747_3.jar C:\Users\lenovo\AppData\Local\Temp\surefire1914108647847406347 2025-03-03T12-18-49_420-jvmRun1 surefire-20250303121849747_1tmp surefire_0-20250303121849747_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\lenovo\git\repository4\Tp\target\test-classes;C:\Users\lenovo\git\repository4\Tp\target\classes;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\lenovo\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\lenovo\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\lenovo\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\lenovo\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\lenovo\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\lenovo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\lenovo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\lenovo\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\lenovo\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\lenovo\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\lenovo\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\lenovo\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\lenovo\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\lenovo\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\lenovo\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\lenovo\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\lenovo\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\lenovo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\lenovo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\lenovo\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\lenovo\.m2\repository\com\mysql\mysql-connector-j\9.2.0\mysql-connector-j-9.2.0.jar;C:\Users\lenovo\.m2\repository\com\google\protobuf\protobuf-java\4.29.0\protobuf-java-4.29.0.jar;C:\Users\lenovo\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\lenovo\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\lenovo\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\lenovo\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\lenovo\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\lenovo\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\lenovo\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\lenovo\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\lenovo\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\lenovo\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\lenovo\AppData\Local\Temp\surefire16667663043888618862\surefirebooter-20250303121428374_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\lenovo\AppData\Local\Temp\surefire1914108647847406347\surefirebooter-20250303121849747_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="createContact" classname="com.comcast.crm.orgtest.Annotations_ContactTest" time="0.01">
+  <testcase name="createContact" classname="com.comcast.crm.orgtest.Annotations_ContactTest" time="0.007">
     <system-out><![CDATA[Report Configuration
 ======Connect to database======
 execute BS
@@ -69,11 +69,11 @@ execute createContact
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Mar 03, 2025 12:14:30 PM io.opentelemetry.api.GlobalOpenTelemetry maybeAutoConfigureAndSetGlobal
+Mar 03, 2025 12:18:52 PM io.opentelemetry.api.GlobalOpenTelemetry maybeAutoConfigureAndSetGlobal
 INFO: AutoConfiguredOpenTelemetrySdk found on classpath but automatic configuration is disabled. To enable, run your JVM with -Dotel.java.global-autoconfigure.enabled=true
 ]]></system-err>
   </testcase>
-  <testcase name="createContactWithDate" classname="com.comcast.crm.orgtest.Annotations_ContactTest" time="0.007">
+  <testcase name="createContactWithDate" classname="com.comcast.crm.orgtest.Annotations_ContactTest" time="0.003">
     <system-out><![CDATA[====>createContact>==== END =====
 execute AM
 execute BM
@@ -81,7 +81,7 @@ execute BM
 execute createContactWithDate
 ]]></system-out>
   </testcase>
-  <testcase name="createOrg" classname="com.comcast.crm.orgtest.Annotations_OrgTest" time="0.001">
+  <testcase name="createOrg" classname="com.comcast.crm.orgtest.Annotations_OrgTest" time="0.005">
     <system-out><![CDATA[====>createContactWithDate>==== END =====
 execute AM
 execute AC
@@ -99,7 +99,7 @@ execute BM
 execute createOrgWithIndustries
 ]]></system-out>
   </testcase>
-  <testcase name="Homepagetest[public void misc.HomeVerificationTest.Homepagetest(java.lang.reflect.Method)](1)" classname="misc.HomeVerificationTest" time="24.849">
+  <testcase name="Homepagetest[public void misc.HomeVerificationTest.Homepagetest(java.lang.reflect.Method)](1)" classname="misc.HomeVerificationTest" time="9.881">
     <system-out><![CDATA[====>createOrgWithIndustries>==== END =====
 execute AM
 execute AC
@@ -107,9 +107,9 @@ execute AC
 HomepagetestTest Start
 HomepagetestTest End
 ]]></system-out>
-    <system-err><![CDATA[Mar 03, 2025 12:14:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 03, 2025 12:18:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
-Mar 03, 2025 12:14:56 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+Mar 03, 2025 12:19:02 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -130,15 +130,15 @@ java.net.SocketException: Connection reset
 
 ]]></system-err>
   </testcase>
-  <testcase name="verifylogo[public void misc.HomeVerificationTest.verifylogo(java.lang.reflect.Method)](1)" classname="misc.HomeVerificationTest" time="9.283">
+  <testcase name="verifylogo[public void misc.HomeVerificationTest.verifylogo(java.lang.reflect.Method)](1)" classname="misc.HomeVerificationTest" time="8.447">
     <system-out><![CDATA[====>Homepagetest>==== END =====
 ====>verifylogo>==== START ====
 verifylogoTest Start
 verifylogoTest End
 ]]></system-out>
-    <system-err><![CDATA[Mar 03, 2025 12:14:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 03, 2025 12:19:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
-Mar 03, 2025 12:15:05 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+Mar 03, 2025 12:19:10 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -159,8 +159,8 @@ java.net.SocketException: Connection reset
 
 ]]></system-err>
   </testcase>
-  <testcase name="createInvoiceTest" classname="misc.InvoiceTest" time="0.111">
-    <failure message="expected [Login] but found [Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Login] but found [Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM]
+  <testcase name="createInvoiceTest" classname="misc.InvoiceTest" time="0.064">
+    <failure message="expected [Home] but found [Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Home] but found [Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -208,11 +208,11 @@ java.net.SocketException: Connection reset
 ====>createInvoiceTest>==== START ====
 Execute createInvoiceTest
 ]]></system-out>
-    <system-err><![CDATA[Mar 03, 2025 12:15:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 03, 2025 12:19:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="createInvoicewithContactTest" classname="misc.InvoiceTest" time="0.519">
+  <testcase name="createInvoicewithContactTest" classname="misc.InvoiceTest" time="0.015">
     <system-out><![CDATA[======logout======
 ======login======
 ====>createInvoicewithContactTest>==== START ====
@@ -223,19 +223,19 @@ step-3
 step-4
 ]]></system-out>
   </testcase>
-  <testcase name="CreateContactTest" classname="misc.SampleReportTest" time="0.002">
+  <testcase name="CreateContactTest" classname="misc.SampleReportTest" time="0.001">
     <system-out><![CDATA[====>createInvoicewithContactTest>==== END =====
 ======logout======
 ======close the browser======
 ====>CreateContactTest>==== START ====
 ]]></system-out>
   </testcase>
-  <testcase name="CreateContactWithOrg" classname="misc.SampleReportTest" time="0.005">
+  <testcase name="CreateContactWithOrg" classname="misc.SampleReportTest" time="0.0">
     <system-out><![CDATA[====>CreateContactTest>==== END =====
 ====>CreateContactWithOrg>==== START ====
 ]]></system-out>
   </testcase>
-  <testcase name="CreateContactWithPhone" classname="misc.SampleReportTest" time="0.0">
+  <testcase name="CreateContactWithPhone" classname="misc.SampleReportTest" time="0.001">
     <system-out><![CDATA[====>CreateContactWithOrg>==== END =====
 ====>CreateContactWithPhone>==== START ====
 ]]></system-out>
